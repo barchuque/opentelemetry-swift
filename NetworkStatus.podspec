@@ -17,5 +17,5 @@ Pod::Spec.new do |spec|
   spec.watchos.deployment_target = "6.0"
 
   spec.dependency 'OpenTelemetryApi', spec.version.to_s
-  spec.dependency 'Reachability', spec.version.to_s
+  spec.dependency 'ReachabilitySwift'
 end

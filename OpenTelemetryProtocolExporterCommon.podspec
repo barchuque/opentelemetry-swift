@@ -17,6 +17,5 @@ Pod::Spec.new do |spec|
   spec.watchos.deployment_target = "6.0"
 
   spec.dependency 'OpenTelemetrySdk', spec.version.to_s
-  spec.dependency 'swift-log'
-  spec.dependency 'swift-protobuf'
+  spec.dependency 'SwiftProtobuf', '~> 1.0'
 end
